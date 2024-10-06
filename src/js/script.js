@@ -1,2 +1,16 @@
-// check js is connected
-console.log('hiii hiii ^_^');
+// Get Stuff
+const thumbnail = document.querySelector('.thumbnail');
+const dialog = document.querySelector('dialog');
+
+// Do Stuff
+thumbnail.addEventListener( 'click' , () => {
+
+  dialog.showModal();
+  
+});
+
+dialog.addEventListener( 'click' , () => {
+
+  dialog.close();
+
+});
